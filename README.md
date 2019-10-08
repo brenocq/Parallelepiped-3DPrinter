@@ -7,15 +7,17 @@ By: Breno Cunha Queiroz
  <img src="https://github.com/Brenocq/Parallelepiped-3DPrinter/blob/master/Images/right.jpg" height="200">
 </p>
 
-This 3D printer can print objects up to 300x300x220mm in size and uses a 3D touch sensor to automatically level the bed. Today, a Mega Arduino and a RAMPS 1.4 are being used to control the printer.
+The purpose of building this printer is to facilitate the creation of other projects that require 3D printed parts. This 3D printer can print objects up to 280x280x260mm in size. This printer has a 3D touch sensor to automatically level the bed. In addition, I am using a PRINTinZ plate to help fix different types of materials on the bed. For ease of printing, the printer controller is connected to a Raspberry PI with OctoPrint, which allows me to print remotely and monitor printing.
 
 ### How to build this 3D printer
 #### 3D models
-All the 3D models I have created to this printer can be found **[here](https://drive.google.com/drive/u/0/folders/12J1GdOfxI5U8omSgYnR7kmPH9qL_yAuy)**.
+I am organizing the files to make them available through ThingiVerse...
 
 #### Other materials
-TODO
+At some point in the future I will list here all the parts I used to build this printer.
 
-Please do not hesitate to contact me when building this printer.
 ### Future work
-- Use a Raspberry PI to control de printer through WiFi.
+- In addition to the 3D printing function I intend to adapt the printer to work as a CNC to create PCBs.
+
+
+**Please feel free to contact me while building this printer:** breno1423@gmail.com
