@@ -11,13 +11,25 @@ The purpose of building this printer is to facilitate the creation of other proj
 
 ### How to build this 3D printer
 #### 3D models
-I am organizing the files to make them available through ThingiVerse...
+**You can see the 3D modeled printer [here](https://a360.co/32wc3JC).**
+
+It is possible to download all files [here](https://a360.co/32wc3JC).
 
 #### Other materials
-At some point in the future I will list here all the parts I used to build this printer.
+- 1x Ramps 1.4
+- 1x Arduino Mega
+- 2x EndStop buttons
+- 1x Headbed MK2a 300mm
+- 1x PRINTinZ plate 300mm
+- 1x 128x64 LCD controller for ramps 1.4
+- 5x Nema 14 stepper motors
+- 1x 3D touch sensor
+- 1x Raspberry Pi 3 B+
+- 1x Raspberry Pi Camera v2
+- (...)
 
 ### Future work
 - In addition to the 3D printing function I intend to adapt the printer to work as a CNC to create PCBs.
 
 
-**Please feel free to contact me while building this printer:** breno1423@gmail.com
+_Please feel free to contact me while building this printer: breno1423@gmail.com_
