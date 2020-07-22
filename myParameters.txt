@@ -1,5 +1,5 @@
------ Cura settings -----
-
+---------- Cura settings ----------
+----- Machine settings -----
 --- Start G-code ---
 G28; Home
 G1 Z15.0 F6000 ;Move the platform down 15mm
@@ -9,7 +9,7 @@ G1 F200 E3
 G92 E0
 G29; Auto-bed-leveling
 G0 Z0
-G92 Z-1.0; Up 1.0mm
+G92 Z-0.5; Up 0.5mm
 
 --- End G-code ---
 M104 S0
@@ -19,3 +19,11 @@ G92 E1
 G1 E-1 F300
 G28 X0 Y0
 M84
+
+----- Printing settings -----
+--- PETG (0.2mm nozzle) ---
+Layer height: 0.1mm
+Nozzle temp: 230
+Build plate temp: 65
+Fan speed: 60%
+Regular fun speed at 4mm
