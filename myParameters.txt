@@ -7,9 +7,9 @@ G1 Z15.0 F6000 ;Move the platform down 15mm
 G92 E0
 G1 F200 E3
 G92 E0
-G29; Auto-bed-leveling
+;G29 Auto-bed-leveling
 G0 Z0
-G92 Z-0.5; Up 0.5mm
+G92 Z0; Down 0mm
 
 --- End G-code ---
 M104 S0
@@ -21,9 +21,19 @@ G28 X0 Y0
 M84
 
 ----- Printing settings -----
---- PETG (0.2mm nozzle) ---
-Layer height: 0.1mm
+--- PETG (0.4mm nozzle) ---
+Layer height: 0.2mm
 Nozzle temp: 230
-Build plate temp: 65
+Build plate temp: 60
 Fan speed: 60%
 Regular fun speed at 4mm
+
+--- TPU (0.4mm nozzle) ---
+Layer height: 0.15mm
+Nozzle temp: 220
+Build plate temp: 50
+Fan speed: 60%
+Regular fun speed at 0.2mm
+Print speed: 20mm/s
+initial print speed: 15mm/s
+
